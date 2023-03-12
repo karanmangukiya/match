@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 require("./db/coon");
 const Criketor = require("./module/mens");
-const port = process.env.PORT || 6500 ;
+const port = process.env.PORT || 6000 ;
 app.use(express.json());
 
 app.post("/criketor",async(req,res) => {
